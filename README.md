@@ -1,8 +1,9 @@
 # Quality-Eduaction
-One of the UN 2030 Goals 
+One of the UN Goals for the 2030 Agenda. 
 
 A website with 2 sub-sections to aid the UN goal of Quality education. 
-Quality Education- Goal 4 
+
+Quality Education is- Goal Number 4. 
 
 This website allows individuals to conveniently search for schools in a particular country and region or online courses. 
 It solves the problem of individuals not having access to information regarding learning opportunities. 
