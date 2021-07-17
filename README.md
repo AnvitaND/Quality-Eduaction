@@ -1,4 +1,4 @@
-# Quality-Eduaction
+# Quality-Education
 One of the UN Goals for the 2030 Agenda. 
 
 A website with 2 sub-sections to aid the UN goal of Quality education. 
