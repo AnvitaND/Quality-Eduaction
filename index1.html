@@ -6,218 +6,51 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
+        <h1> Quality Education For All </h1>
+            <h3>Find a school</h3>
+            
+            <form action="action_page.php">
+            <label for="fname">Country:</label><br>
+              <input type="text" id="fname" name="fname"><br>
+              <label for="fname">Region/City:</label><br>
+              <input type="text" id="fname" name="fname"><br>
+              <label for="lname">Price Range:</label><br>
+              <input type="text" id="lname" name="lname"><br>
+              <label for="fname">Pupil Age:</label><br>
+              <input type="text" id="fname" name="fname"><br>
+              <label for="fname">Pupil Grade:</label><br>
+              <input type="text" id="fname" name="fname"><br><br>
+              <input type="Submit" value="Find a school" onClick="window.open('./index2.html');" />
+                <span class="icon"></span>
+             
+            </form> 
 
-        <div class="container">
-            <div class="row">
-              <div class="col-sm text-center">
-                <h1> Quality Education For All </h1>
-              </div>
-            </div>
-            <br/>
-            <div class="row">
-              <div class="col-sm justify-left">
-                    <h3>Search for schools </h3>
+            <h3>Apply for online lessons</h3>
 
-                    <form>
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Country</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Country">
-                          <small id="emailHelp" class="form-text text-muted"></small>
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleInputPassword1">Region/City</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Region/City">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Price Range</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="In SGD">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputPassword1">Pupil Age</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Age">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputPassword1">Pupil Grade</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Grade">
-                          </div>
-                        <div class="form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">All details mentioned are up-to-date</label>
-                        </div>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Search Schools</button>
-                      </form>
-                
-                      <!-- MODAL DIALOG - START -->
-                      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Search for Schools</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                                  <h1 class="text-center">Schools In Singapore</h1>
-                                  <h3 class="text-center">Budget:$ 20000</h3>
+<form action="/action_page.php">
+<label for="fname">Name:</label><br>
+<input type="text" id="fname" name="fname"><br>
+  <label for="fname">Preferred time duration:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="fname">Subject chosen:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Price Range:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="fname">Pupil Age:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="fname">Pupil Grade:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="Submit" value="Find courses" onClick="window.open('./index3.html');" />
+  <span class="icon"></span>
+</form> 
+            
+            
+            </body>
+            </html>
+            
 
-                                  <h4 class="text-center">The Grange Institution</h4>
-                                  <p class="text-center">The Grange Institution, enquiry@thegrange.edu.sg, Tel: (+65) 68173630, www.thegrange.edu.sg</p>
-                                  <p class="text-center"</p> <button type="button" class="btn btn-info" >Find out more!</button>
-
-                                  <h4 class="text-center">Global Indian International School (GIIS)</h4>
-                                  <p class="text-center">Global Indian International School, admissions.sg@globalindianschool.org,Tel: (+65) 9631 600, www.singapore.globalindianschool.org</p>
-                                  <p class="text-center"</p> <button type="button" class="btn btn-info">Find out more!</button>
-
-                                  <h4 class="text-center">LEAD Centre for Education</h4>
-                                  <p class="text-center">LEAD Centre for Education, 929 Tampines Street 91, #01-439, Singapore 520929, Tel: (+65)  6908 2962, www.leadcfe.com</p>
-                                  <p class="text-center"</p> <button type="button" class="btn btn-info">Find out more!</button>
-
-                                  <h4 class="text-center">DIMENSIONS</h4>
-                                  <p class="text-center">DIMENSIONS, enquiry@dimensions.edu.sg, Full-Time Courses Tel: (+65) 9729 5969 (Non PRC), Tel : (+65) 9181 9430 (PRC), Part-Time Courses Tel: (+65) 6887 4466, www.dimensions.edu.sg</p>
-                                  <p class="text-center"</p> <button type="button" class="btn btn-info">Find out more!</button>
-
-                                  <h4 class="text-center">Happy Family School of Excellence (HFSE)</h4>
-                                  <p class="text-center">Happy Family School of Excellence, 231 Mountbatten Centre, Building D Level 2, Singapore 397999, enquiry@hfse.edu.sg, Tel: (+65) 6451 0080, www.hfse.edu.sg</p>
-                                  <p class="text-center"</p> <button type="button" class="btn btn-info">Find out more!</button>
-
-                                  <h4 class="text-center">Heritage Academy</h4>
-                                  <p class="text-center">Heritage Academy, Tel: (+65) 9382 5753 / 6203 0700, www.heritageacademy.com.sg</p>
-                                  <p class="text-center"</p> <button type="button" class="btn btn-info">Find out more!</button>
-
-                                  <h4 class="text-center">Invictus International School</h4>
-                                  <p class="text-center">Invictus International School, 73 Loewen Rd, #01-21, Singapore 248843, info@invictus.edu.sg, Tel: (+65) +65-62593877, www.invictus.school</p>
-                                  <p class="text-center"</p> <button type="button" class="btn btn-info">Find out more!</button>
-
-                                  <h4 class="text-center">Razum International School</h4>
-                                  <p class="text-center">Razum International School, 1 Kay Siang Rd #05-01/02 Singapore 248922, hello@razum.edu.sg,Tel: (+65) 69745700, www.razum.edu.sg</p>
-                                  <p class="text-center"</p> <button type="button" class="btn btn-info">Find out more!</button>
-
-                                  <h4 class="text-center">Sir Manasseh Meyer International School</h4>
-                                  <p class="text-center">SMMIS, 3 Jalan Ulu Sembawang, Singapore 758932, Tel: (+65) 6331 4633, www.smmis.edu.sg</p>
-                                  <p class="text-center"</p> <button type="button" class="btn btn-info">Find out more!</button>
-
-                                  <h4 class="text-center">Olympiad International School</h4>
-                                  <p class="text-center">Location: Paya Lebar</p>
-                                  <p class="text-center"</p> <button type="button" class="btn btn-info">Find out more!</button>
-
-                                  <h4 class="text-center">TLS Academy</h4>
-                                  <p class="text-center">TLS Academy, 10 Winstedt Road #02-04 Singapore 227977, Tel: (+65) 68360061 / 91992579, www.tlsacademy.org</p>
-                                  <p class="text-center"</p> 
-  
-                            <button type="button" class="btn btn-info">Find out more!</button>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                          </div>
-
-                          <!-- MODAL DIALOG - END -->
-                        </div>
-                      </div>
-
-                      </div>
-                      <hr/>
-                    
-                    </form> 
-
-              </div> -->
-              <!-- Find a school column -->
-              <div class="col-sm">
-                    <h3>Apply for online lessons</h3>
-
-                    <form>
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Name</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
-                          <small id="emailHelp" class="form-text text-muted"></small>
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleInputPassword1">Preferred time duration</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Preferred time duration">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Subject chosen</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Subject chosen">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputPassword1">Price Range</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="In SGD">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputPassword1">Pupil Age</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Age">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputPassword1">Pupil Grade</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Grade">
-                          </div>
-                        <div class="form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">All details mentioned are up-to-date</label>
-                        </div>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#findCourseModal">Search Courses</button> 
-                      </form>
-
-                      <div class="modal" id="findCourseModal" tabindex="-1" role="dialog">
-                        <div class="modal-dialog modal-lg" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title">Search Courses</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                              <h1 class="text-center">Online Courses</h1>
-<h2 class="text-center">Subject: English</h2>
-<h3 class="text-center">Budget:$ 1000</h3>
-
-<h4 class="text-center">Professer: XYZ</h4>
-<p class="text-center">Fees: $598</p>
-<p class="text-center">Duration: 3 weeks</p>
-<p class="text-center"</p> <button type="button" class="btn btn-success">Find out more!</button>
-
-<h4 class="text-center">Professer: LMN</h4>
-<p class="text-center">Fees: $872</p>
-<p class="text-center">Duration: 1.5 weeks</p>
-<p class="text-center"</p> <button type="button" class="btn btn-success">Find out more!</button>
-
-<h4 class="text-center">Professer: ABC</h4>
-<p class="text-center">Fees: $923</p>
-<p class="text-center">Duration: 3 weeks</p>
-<p class="text-center"</p> <button type="button" class="btn btn-success">Find out more!</button>
-
-<h4 class="text-center">Professer: RTY</h4>
-<p class="text-center">Fees: $230</p>
-<p class="text-center">Duration: 1 week</p>
-<p class="text-center"</p> <button type="button" class="btn btn-success">Find out more!</button>
-
-<h4 class="text-center">Professer: RDS</h4>
-<p class="text-center">Fees: $145</p>
-<p class="text-center">Duration: 5 days</p>
-<p class="text-center"</p> <button type="button" class="btn btn-success">Find out more!</button>
-
-<h4 class="text-center">Professer: GHI</h4>
-<p class="text-center">Fees: $1000</p>
-<p class="text-center">Duration: 3 weeks</p>
-<p class="text-center"</p> <button type="button" class="btn btn-success">Find out more!</button>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-primary">Save changes</button>
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-
-                <!-- Apply for online lessons column -->
-            </div>
-          </div>
-
-
+<!-- 
+Anvita - trying bootstrap -->
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
